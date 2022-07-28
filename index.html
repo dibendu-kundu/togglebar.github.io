@@ -13,7 +13,17 @@
 
 <body>
     <div class="navbar">
-        <!-- <div class="logo">Design</div> -->
+        <div class="bar" onclick="myfunc()">
+            <a><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="cancel" onclick="myfunc()">
+            <a><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        
+        <div class="logo">
+            <a>My Webpage</a>
+        </div>
+        <!-- if we use getelementbyid in js then we use specified id of ul, otherwise use just class  -->
         <ul class="order" id="menu">
             <li><a>Home</a></li>
             <li><a>About</a></li>
@@ -27,9 +37,6 @@
             </li>
             <li><a>More</a></li>
         </ul>
-        <div class="bar" onclick="myfunc()">
-            <a><i class="fa-solid fa-bars"></i></a>
-        </div>
     </div>
     <br>
     <br>
