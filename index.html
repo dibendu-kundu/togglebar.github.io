@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,15 @@
     <title>Weather Forecast</title>
 </head>
 
-<body>
+<body onload="myfunction()">
+    <div class="loading">
+        <div class="center">
+            <div class="ring"></div>
+            <span>Loading...</span>
+        </div>
+    </div>
+    
     <div class="outbox">
-
         <div class="navpanel">
             <div class="leftarrow"><a><i class="fa-solid fa-arrow-left"></i> Weather App</a></div>
         </div>
@@ -46,7 +52,7 @@
                 <div class="place"><a>_,_</a></div>
             </div>
 
-            
+
             <div class="condition">
                 <div class="feels">
                     <div class="iconbaro"><i class="fa-solid fa-temperature-half"></i></div>
