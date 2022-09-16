@@ -156,6 +156,15 @@ Arrow.addEventListener("click", ()=>{
 })
 
 
+function myfunction(){
+    var preloader=document.querySelector(".loading");
+    var x=document.querySelector(".outbox");
+    x.style.display="none";
+    setTimeout(() => {
+        preloader.style.display="none";
+        x.style.display="block";
+    }, 1700);
+}
 
 // function myfunc(){
 //     var x =document.querySelector(".leftarrow");
